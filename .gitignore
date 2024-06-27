@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Cmake files 
+CMakelists.txt
+
 # Compiled Object files
 *.slo
 *.lo
@@ -30,3 +33,40 @@
 *.exe
 *.out
 *.app
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Unit test / coverage reports
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
